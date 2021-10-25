@@ -70,6 +70,33 @@ p.index2 {
     text-align: center;
     margin-top: 280px;
 }
+
+
+section#Letter1 figure { 
+    background-color: lavender; 
+    margin: 3em; 
+    width: 40%;
+}
+
+section#Letter2 figure { 
+    background-color: lavender; 
+    margin: 3em; 
+    width: 40%;
+}
+
+figcaption {
+    font-style: italic; 
+    font-size: .8em;
+}
+
+figure img {
+    max-width: 700px; 
+    width: 100%;
+}
+
+.letter {
+    margin: 1em;
+}
 /*  ol {
 list-style-type: lower-alpha;
 padding: 5em;
