@@ -84,6 +84,18 @@ section#Letter2 figure {
     width: 40%;
 }
 
+section#ParentLetter figure { 
+    background-color: lavender; 
+    margin: 3em; 
+    width: 40%;
+}
+
+section#Memorial figure { 
+    background-color: lavender; 
+    margin: 3em; 
+    width: 40%;
+}
+
 figcaption {
     font-style: italic; 
     font-size: .8em;
