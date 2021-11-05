@@ -11,18 +11,20 @@ header = element header { date, greeting? }
 # gd: possibly add a figure self-closing element 
 date = element date { xsd:date | xsd:gYearMonth | xsd:gYear }
 greeting = element greeting { text }
-p = element p {n,mixed {(person | emotion | place | weather | unclear | crossOut | underline | smear | stain)*}}
+p = element p {n,mixed{(ln |person | emotion | place | weather | unclear | crossOut | underline | smear | stain)*}}
 n = attribute n { xsd:integer }
-person = element person { id, text }
+ln = element ln {n, empty}
+person = element person { (id | idRef), text }
 id = attribute id { xsd:ID }
+idRef = attribute idRef {xsd:IDREF}
 place = element place { text }
 weather = element weather { text }
-unclear = element unclear { reason, text }
+unclear = element unclear {reason, text }
 underline = element underline {text}
-crossOut = element creossOut { reason, text }
-smear = element smear { reason, text }
+crossOut = element crossOut {text }
+smear = element smear {text }
 # gd: the ink from the writing has smeared onto the page from a phrase or word
-stain = element stain { reason, text }
+stain = element stain {text }
 # gd: stain is a spot on the page from an outside source besides ink that overlaps the writing.
 reason = attribute reason { text }
 emotion = element emotion { text }
