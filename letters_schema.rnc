@@ -6,8 +6,9 @@ location = attribute location { "John M. Lilley Library, Penn State Behrend Arch
 paperOrigin = element paperOrigin { text }
 transDesc = element transDesc { editor+}
 editor = element editor { "GD" | "JG" | "AM" | "TH" | "SB" | "NV" }
-body = element body { header, p+}
-header = element header { date, greeting? }
+body = element body { header, p+ , closer}
+header = element header {date, greeting?}
+#ged: need to add ln element in header
 # gd: possibly add a figure self-closing element 
 date = element date { xsd:date | xsd:gYearMonth | xsd:gYear }
 greeting = element greeting { text }
@@ -28,4 +29,4 @@ stain = element stain {text }
 # gd: stain is a spot on the page from an outside source besides ink that overlaps the writing.
 reason = attribute reason { text }
 emotion = element emotion { text }
-closer = element closer { text }
+closer = element closer {mixed{ln+} }
