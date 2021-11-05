@@ -4,21 +4,21 @@ meta = element meta { sourceDesc, paperOrigin, transDesc }
 sourceDesc = element sourceDesc { location }
 location = attribute location { "John M. Lilley Library, Penn State Behrend Archives" }
 paperOrigin = element paperOrigin { text }
-transDesc = element transDesc { editor, empty }
-editor = attribute editor { "GD" | "JG" | "AM" | "TH" | "SB" | "NV" }
-body = element body { header, p }
+transDesc = element transDesc { editor+}
+editor = element editor { "GD" | "JG" | "AM" | "TH" | "SB" | "NV" }
+body = element body { header, p+}
 header = element header { date, greeting? }
 # gd: possibly add a figure self-closing element 
 date = element date { xsd:date | xsd:gYearMonth | xsd:gYear }
 greeting = element greeting { text }
-p = element p {n,mixed {person, emotion, (place | weather | unclear | crossOut | underline | smear | stain)*}}
+p = element p {n,mixed {(person | emotion | place | weather | unclear | crossOut | underline | smear | stain)*}}
 n = attribute n { xsd:integer }
 person = element person { id, text }
 id = attribute id { xsd:ID }
 place = element place { text }
 weather = element weather { text }
 unclear = element unclear { reason, text }
-underline = element underline { reason, text }
+underline = element underline {text}
 crossOut = element creossOut { reason, text }
 smear = element smear { reason, text }
 # gd: the ink from the writing has smeared onto the page from a phrase or word
