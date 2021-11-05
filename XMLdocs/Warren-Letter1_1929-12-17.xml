@@ -32,6 +32,45 @@
             <ln> mine anyway <unclear reason="1st letter looks like a n, we think it is a the word but.">but</unclear>here it is again.</ln> 
             <ln><underline>Don't worry</underline>.</ln> 
         </p>
+        <p n="3"> 
+            <ln>I am going to drop in and see</ln>
+            <ln><person>Harriet</person>tomorrow night.<person>Miss Black-</ln> <!-- seb: should I make two person elements for Miss Black, and one for -stone? or do a self closing line element? -->
+            <ln>stone</person>said that <unclear reason="looks like it could be mother or brother">brother</unclear>might get</ln>
+            <ln>through the portals to see their <unclear reason="not entirely sure what this says">sisters.</unclear></ln>
+        </p>
+        <p n="4">
+            <ln>I have a "blind date" for to-</ln>
+            <ln>morrow night in <place>New York</place>. If</ln>
+            <ln>you know what a blind date is</ln>
+            <ln>you will realize that I awaite it</ln>
+            <ln>with fear trembling. The only thing</ln>
+            <ln>the girl who made the date knows</ln>
+            <ln>about me is that I am 5'8" tall.</ln>
+        </p>
+        <p n="5">
+            <ln>Tomorrow we have 20 minute</ln> <!-- seb: should we add a time element -->
+            <ln>periods and are all through at</ln>
+            <ln>11.30. As I have no <smear>classes</smear>the</ln> <!-- seb: small smear/scribble on the s -->
+            <ln>sixth and seventh periods I shall</ln>
+            <ln>be all through at 10.50. This works</ln> 
+            <ln>out very well, because <person>Mr. <unclear reason="not sure if this is the right spelling">Oatley</unclear></person></ln>
+            <ln>is leaving at eleven o'clock for</ln>
+            <ln><place>Springfield</place> in his car. He is going</ln>
+            <ln>to take us <crossOut>unknown</crossOut> along and so that</ln>
+            <ln>gives us plenty of time to get the one</ln>
+            <ln>o'clock out of <place>Springfield</place>. That</ln>
+            <ln>gives <person>Ned</person> a chance to stay off in</ln>
+            <ln>New Haven and gives me a chance</ln>
+            <ln>to see <person>Harriet</person>.</ln>
+        </p>
+        <p n="6">
+            <ln>I'm looking forward to seeing you</ln>
+            <ln>in <place>Charleston</place> soon and it will</ln>
+            <ln>be mighty nice to have the whole family</ln>
+            <ln>together again. I'm telephoning <person>Betty</person></ln>
+            <ln><person>Bratton </person>tonight find out whether</ln>
+            <ln>she can come and if so when. If she </ln>
+        </p>
     </body>
 
 
