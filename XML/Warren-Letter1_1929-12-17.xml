@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
     <meta>
         <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
@@ -53,6 +53,7 @@
             <ln  n="4"/>sixth and seventh periods I shall
             <ln  n="5"/>be all through at 10.50. This works
             <ln  n="6"/>out very well, because <person id= "OAK">Mr.<unclear reason="not sure if this is the right spelling">Oatley</unclear></person>
+            <!-- ged: The unclear element is not allowed in a person element. Once we figure out the unclear element. This error will be resolved. -->
             <ln  n="7"/>is leaving at eleven o'clock for
             <ln  n="8"/><place>Springfield</place> in his car. He is going
             <ln  n="9"/>to take us <crossOut>unknown</crossOut> along and so that
