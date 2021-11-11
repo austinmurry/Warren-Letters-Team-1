@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <letter>
     <meta>
         <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
@@ -17,7 +18,7 @@
         <p n="1">
             <ln n="1"/>It won't be very long now
             <ln n="2"/>before we will all be together 
-            <ln n="3"/>again on the <unclear reason="hard to read/">Amida</unclear>. I am be-
+            <ln n="3"/>again on the <unclear reason="hard to read">Amida</unclear>. I am be-
             <ln n="4"/>ginning to feel more like I was
             <ln n="5"/>going home when we all live
             <ln n="6"/>on <unclear reason="hard to read">board</unclear> her than when in the 
@@ -69,16 +70,16 @@
             <ln n="6"/> number of wells next week. The
             <ln n="7"/> spring at the <place>Eaglehook</place> dried out
             <ln n="8"/> yesterday and so that <crossOut>is the jist</crossOut>
-            <ln n="9"/> throws all the more drain on the
-            <ln n="10"/> town system.
+            <ln n="9"/> <stain>thr</stain>ows all the more drain on the
+            <ln n="10"/> <stain>to</stain>wn system.
         </p>
         <p n="6">
-            <ln n="1"/> Hope you have a nice trip
+            <ln n="1"/> <stain>H</stain>ope you have a nice <stain>t</stain>rip
             <ln n="2"/> south.
         </p>
         <closer>
             <ln n="1"/>Much love,
-            <ln n="2"/>Warren
+            <ln n="2"/>W<stain>arr</stain>en
         </closer>
     </body>
     
