@@ -12,7 +12,7 @@ header = element header {date, greeting?}
 # gd: possibly add a figure self-closing element 
 date = element date { xsd:date | xsd:gYearMonth | xsd:gYear }
 greeting = element greeting { text }
-p = element p {n,mixed{(ln |person | emotion | place | weather | unclear | crossOut | underline | smear | stain)*}}
+p = element p {n, ln, mixed{(ln |person | emotion | place | weather | unclear | crossOut | underline | smear | stain)*}}
 #ged: p element needs revised I need to make the ln a reqiured element that lies within the p element. 
 n = attribute n { xsd:integer }
 ln = element ln {n, empty}
