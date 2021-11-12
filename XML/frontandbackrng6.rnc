@@ -1,0 +1,11 @@
+start = xml
+xml = element xml {front, back}
+front = element front {meta, paragraph+}
+meta = element meta {text}
+paragraph = element paragraph {p+, n}
+p = element p {text}
+n = attribute n {xsd:integer} 
+back = element back {meta, paragraph+}
+
+
+
