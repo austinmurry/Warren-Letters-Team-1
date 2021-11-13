@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
     <meta>
         <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
@@ -15,14 +15,17 @@
         </header>
  
         <p n="2"> <!--Fathers letter on the back of the page-->
-            <ln><unclear reason="cannot read this word, just know it is 10 letters">??????????</unclear><unclear reason="unsure of this word">???</unclear> beautifully -so far!</ln>
-            <ln>First day nice weather; <underline>very</underline> cold</ln>
-            <ln>yesterday. You may need your <unclear reason="don't know if this is the right word">coon</unclear></ln>
-            <ln>coat, heavy hat <unclear reason="I believe this is what it says but not sure">or fur</unclear> cap!!</ln>
-            <ln>Look forward to <unclear reason="unsure of these two words">??? ??????????.</unclear></ln>
-            <ln>Faithfully</ln>
-            <ln>Father.</ln>
-        </p>
+            <ln n="1"/><unclear reason="cannot read this word, just know it is 10 letters">??????????</unclear><unclear reason="unsure of this word">???</unclear> beautifully -so far!
+            <ln n="2"/>First day nice weather; <underline>very</underline> cold
+            <ln n="3"/>yesterday. You may need your <unclear reason="don't know if this is the right word">coon</unclear>
+            <ln n="4"/>coat, heavy hat <unclear reason="I believe this is what it says but not sure">or fur</unclear> cap!!
+            <ln n="5"/>Look forward to <unclear reason="unsure of these two words">??? ??????????.</unclear>
+        </p>    
+        
+        <closer>
+            <ln n="6"/>Faithfully
+            <ln n="7"/>Father.
+        </closer>
         
     </body>
 </letter>
