@@ -1,33 +1,40 @@
 start = letter
 letter = element letter { meta, body }
-meta = element meta { sourceDesc, paperOrigin, transDesc }
+meta = element meta { title, sourceDesc,  paperOrigin, transDesc }
+title = element title {titleId, text}
+titleId = attribute titleId {xsd:ID}
+# ged: please be consistent with titleIds they should look like this (WtoP-YYYY-MM-DD-pg#) (PtoW-YYYY-MM-DD-pg#) 
+# if your date does not have a month or day just fill in what you can and follow the xsd: date data types. 
+#For the Mem Service the titleId  should look like this (memService-YYYY-MM-DD-pg#)
 sourceDesc = element sourceDesc { location }
 location = attribute location { "John M. Lilley Library, Penn State Behrend Archives" }
 paperOrigin = element paperOrigin { text }
 transDesc = element transDesc { editor+}
 editor = element editor { "GD" | "JG" | "AM" | "TH" | "SB" | "NV" }
-body = element body { header, p+ , closer}
-header = element header {date, greeting?}
-#ged: need to add ln element in header
-# gd: possibly add a figure self-closing element 
+body = element body {pb, header, (pb | p)+ , closer}
+pb = element pb {n+, empty}
+# ged: added a pb element to indicate page beginnings. 
+header = element header {ln+, date, greeting?}
+# ged: need to add ln element in header
+# ged: possibly add a figure self-closing element 
 date = element date { xsd:date | xsd:gYearMonth | xsd:gYear }
 greeting = element greeting { text }
 p = element p {n, ln, mixed{(ln |person | emotion | place | weather | unclear | crossOut | underline | smear | stain)*}}
-#ged: p element needs revised I need to make the ln a reqiured element that lies within the p element. 
+# ged: p element needs revised I need to make the ln a reqiured element that lies within the p element. 
 n = attribute n { xsd:integer }
 ln = element ln {n, empty}
-person = element person { (id | idRef), text }
-id = attribute id { xsd:ID }
-idRef = attribute idRef {xsd:IDREF}
+person = element person { (personId | personIdRef), text }
+personId = attribute personId { xsd:ID }
+personIdRef = attribute personIdRef {xsd:IDREF}
 place = element place { text }
 weather = element weather { text }
 unclear = element unclear {reason, text }
 underline = element underline {text}
 crossOut = element crossOut {text }
 smear = element smear {text }
-# gd: the ink from the writing has smeared onto the page from a phrase or word
+# ged: the ink from the writing has smeared onto the page from a phrase or word
 stain = element stain {text }
-# gd: stain is a spot on the page from an outside source besides ink that overlaps the writing.
+# ged: stain is a spot on the page from an outside source besides ink that overlaps the writing.
 reason = attribute reason { text }
 emotion = element emotion { text }
 closer = element closer {mixed{ln+} }
