@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<letter>
+<xml>
     <meta>
+        <title titleId= "WtoP-1929-12-17"/>
         <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
         <paperOrigin>Deerfield Academy Deerfield, Massachutsetts</paperOrigin>
         <transDesc>
@@ -9,10 +10,14 @@
             <editor>SB</editor>
         </transDesc>
     </meta>
+    <figure>
+        <graphic src="#" alt="#"></graphic>
+    </figure>
     <body>
+        <pb n="1"/>
         <header>
-            <date>1929-12-17</date>
-            <greeting>Dear Father &amp; Mother,</greeting>
+            <ln n="1"/><date>1929-12-17</date>
+            <ln n="2"/><greeting>Dear Father &amp; Mother,</greeting>
         </header>
         <p n="1">
             <ln n="1"/>It is raining hard and freezing on
@@ -24,51 +29,53 @@
             <ln n="7"/>in the Duesenburg<!--ged: might want to make a car element-->
         </p>
         <p n="2">
-            <ln n="1"/><person id="NR">Ned Richardson</person> and I have
+            <ln n="1"/><person personId="NR">Ned Richardson</person> and I have
             <ln n="2"/>both promised each other to drive care-
             <ln n="3"/>fully. and are<unclear reason="not sure what this says">nothing</unclear> our parents
             <ln n="4"/>such a promise. You already have
             <ln n="5"/> mine anyway <unclear reason="1st letter looks like a n, we think it is a the word but.">but</unclear>here it is again. 
             <ln n="6"/><underline>Don't worry</underline>.
         </p>
+        <pb n="2"/>
         <p n="3"> 
             <ln n="1"/>I am going to drop in and see
-            <ln n="2"/><person id="HAR">Harriet</person>tomorrow night.<person id="MBS">Miss Black</person>- <!-- seb: should I make two person elements for Miss Black, and one for -stone? or do a self closing line element? -->
-            <ln n="3"/><person idRef="MBS">stone</person> said that <unclear reason="looks like it could be mother or brother">brother</unclear>might get
+            <ln n="2"/><person personId="HAR">Harriet</person>tomorrow night.<person personId="MBS">Miss Black</person>- <!-- seb: should I make two person elements for Miss Black, and one for -stone? or do a self closing line element? -->
+            <ln n="3"/><person personIdRef="MBS">stone</person> said that <unclear reason="looks like it could be mother or brother">brother</unclear>might get
             <ln n="4"/>through the portals to see their <unclear reason="not entirely sure what this says">sisters.</unclear>
         </p>
         <p n="4">
             <ln  n="1"/>I have a "blind date" for to-
-            <ln  n="2"/>morrow night in <place>New York</place>. If
+            <ln  n="2"/>morrow night in <place placeId="NY">New York</place>. If
             <ln  n="3"/>you know what a blind date is
             <ln  n="4"/>you will realize that I awaite it
-            <ln  n="5"/>with <emotion>fear</emotion> trembling. The only thing <!-- seb:added emotion tag -->
+            <ln  n="5"/>with fear trembling. The only thing 
             <ln  n="6"/>the girl who made the date knows
             <ln  n="7"/>about me is that I am 5'8" tall.
         </p> 
         <p n="5">
             <ln  n="1"/>Tomorrow we have 20 minute<!-- seb: should we add a time element -->
             <ln  n="2"/>periods and are all through at
-            <ln  n="3"/>11.30. As I have no <smear>classes</smear>the <!-- seb: small smear/scribble on the s -->
+            <ln  n="3"/>11.30. As I have no classes the 
             <ln  n="4"/>sixth and seventh periods I shall
             <ln  n="5"/>be all through at 10.50. This works
-            <ln  n="6"/>out very well, because <person id= "OAK">Mr.<unclear reason="not sure if this is the right spelling">Oatley</unclear></person>
+            <ln  n="6"/>out very well, because <person personId= "OAK">Mr.<unclear reason="not sure if this is the right spelling">Oatley</unclear></person>
+       <pb n="3"/>
             <!-- ged: The unclear element is not allowed in a person element. Once we figure out the unclear element. This error will be resolved. -->
             <ln  n="7"/>is leaving at eleven o'clock for
-            <ln  n="8"/><place>Springfield</place> in his car. He is going
+            <ln  n="8"/><place placeId="SPRING">Springfield</place> in his car. He is going
             <ln  n="9"/>to take us <crossOut>unknown</crossOut> along and so that
             <ln  n="10"/>gives us plenty of time to get the one
-            <ln  n="11"/>o'clock out of <place>Springfield</place>. That
-            <ln  n="12"/>gives <person idRef="NR">Ned</person> a chance to stay off in
+            <ln  n="11"/>o'clock out of <place placeIdRef="SPRING">Springfield</place>. That
+            <ln  n="12"/>gives <person personIdRef="NR">Ned</person> a chance to stay off in
             <ln  n="13"/>New Haven and gives me a chance
-            <ln  n="14"/>to see <person idRef="HAR">Harriet</person>.
+            <ln  n="14"/>to see <person personIdRef="HAR">Harriet</person>.
         </p>
         <p n="6">
             <ln  n="1"/>I'm looking forward to seeing you
-            <ln  n="2"/>in <place>Charleston</place> soon and it will
+            <ln  n="2"/>in <place placeId="CHAR">Charleston</place> soon and it will
             <ln  n="3"/>be mighty nice to have the whole family
-            <ln  n="4"/>together again. I'm telephoning <person id="BB">Betty</person>
-            <ln  n="5"/><person idRef="BB">Bratton</person>tonight find out whether
+            <ln  n="4"/>together again. I'm telephoning <person personId="BB">Betty</person>
+            <ln  n="5"/><person personIdRef="BB">Bratton</person>tonight find out whether
             <ln  n="6"/>she can come and if so when. If she
         </p>
         <p n="7">
@@ -98,4 +105,4 @@
     </body>
 
 
-</letter>
+</xml>

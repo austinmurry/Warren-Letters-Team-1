@@ -2,7 +2,7 @@
 <?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <meta>
-        <title titleId= "PtoW-YYYY-MM-DD-pg1"/>
+        <title titleId= "PtoW-1929-12-17"/>
         <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
         <paperOrigin>The Monticello Tidewater's Leading Hotel. Norfolk,VA.</paperOrigin>
         <transDesc>
@@ -10,9 +10,9 @@
             <editor>GD</editor>
         </transDesc>
     </meta>
-    <img>
+    <figure>
         <graphic src="#" alt="#"></graphic>
-    </img>
+    </figure>
     <body>
         <pb n="1"/>
         <header>
@@ -35,7 +35,7 @@
             <ln n="13"/>think of how much
             <ln n="14"/>we care for you and
             <!-- ged: start of 2 page -->
-          <pb n="2"/>
+        <pb n="2"/>
             <ln n="15"/><unclear reason="no idea">found</unclear> wilt due <unclear reason="no idea">caretin</unclear>
             <ln n="16"/>It if mild drivers on 
             <ln n="17"/> the road ??? ????
