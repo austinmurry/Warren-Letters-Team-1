@@ -1,31 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<letter>
+<xml>
     <meta>
+        <title titleId= "PtoW-YYYY-MM-DD-pg1"/>
         <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
         <paperOrigin>The Monticello Tidewater's Leading Hotel. Norfolk,VA.</paperOrigin>
         <transDesc>
             <editor>AM</editor>
+            <editor>GD</editor>
         </transDesc>
     </meta>
+    <img>
+        <graphic src="#" alt="#"></graphic>
+    </img>
     <body>
+        <pb n="1"/>
         <header>
-            <date>1929-12-17</date>
-            <greeting>Dear Warren,</greeting>
+            <ln n="1"/><date>1929-12-17</date>
+            <ln n="2"/><greeting>Dear Warren-</greeting>
         </header>
- 
-        <p n="2"> <!--Fathers letter on the back of the page-->
-            <ln n="1"/><unclear reason="cannot read this word, just know it is 10 letters">??????????</unclear><unclear reason="unsure of this word">???</unclear> beautifully -so far!
-            <ln n="2"/>First day nice weather; <underline>very</underline> cold
-            <ln n="3"/>yesterday. You may need your <unclear reason="don't know if this is the right word">coon</unclear>
-            <ln n="4"/>coat, heavy hat <unclear reason="I believe this is what it says but not sure">or fur</unclear> cap!!
-            <ln n="5"/>Look forward to <unclear reason="unsure of these two words">??? ??????????.</unclear>
+        <p n="1">
+            <ln n="1"/>Headed in
+            <ln n="2"/><unclear reason="not sure what word this is I know it ends in onthern">Gontern</unclear> Pines. Next day 
+            <ln n="3"/><unclear reason="Charleston?? not sure what this says">Charlestn a the Ermida</unclear> 
+            <ln n="4"/>hill wonderful to see
+            <ln n="5"/>for it. O all 
+            <ln n="6"/>&amp; gather for Christmas.
+            <ln n="7"/><unclear reason="I have no idea what this word is">Mlele</unclear> Betty &amp;
+            <ln n="8"/>offically invite her -
+            <ln n="9"/>stee say flee is coming
+            <ln n="10"/>lawnell 27.?. Posilb-
+            <ln n="11"/>y you have heard more
+            <ln n="12"/>about this. Much love
+            <ln n="13"/>think of how much
+            <ln n="14"/>we care for you and
+            <!-- ged: start of 2 page -->
+          <pb n="2"/>
+            <ln n="15"/><unclear reason="no idea">found</unclear> wilt due <unclear reason="no idea">caretin</unclear>
+            <ln n="16"/>It if mild drivers on 
+            <ln n="17"/> the road ??? ????
+            <ln n="18"/>?? Waren?.
+        </p>
+        <p n="2"> <!-- am: Fathers letter on the back of the page-->
+            <ln n="1"/>Duesenberg ran beautifully -so far!
+            <ln n="2"/>First day nice weather;<underline>very</underline> cold
+            <ln n="3"/>yesterday. You may need your coon
+            <ln n="4"/>coat, heavy hat or fur cap!!
+            <ln n="5"/>Look forward to our Wiedersehen. <!-- ged: This is German for meet again --> 
         </p>    
-        
         <closer>
-            <ln n="6"/>Faithfully
-            <ln n="7"/>Father.
+            <ln n="1"/>Faithfully
+            <ln n="2"/>Father.
         </closer>
-        
     </body>
-</letter>
+</xml>
