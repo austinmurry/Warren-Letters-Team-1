@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<letter>
+
+<?xml-model href="letters_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
     
         <meta>
+            <title titleId="Memorial"/>
             <sourceDesc location="John M. Lilley Library, Penn State Behrend Archives"/>
             <paperOrigin>Correct copy P. J. Long COPY Hammermill Paper Company</paperOrigin>
             <transDesc>
@@ -9,11 +12,14 @@
             </transDesc>
             
         </meta>
+    <figure>
+        <graphic src="#" alt="#"></graphic>
+    </figure>
       <body> 
-        
+        <pb n="1"/>
             <header>
-                <date>1929-12-19</date>
-                <greeting><!-- no greeting was provided --></greeting>
+               <ln n="1"/> <date>1929-12-19</date>
+               <greeting><!-- no greeting was provided --></greeting>
             </header>
         <p n="1">
             <ln n="1"/>On December 19th, 1929 Warren Behrend on his way to join his family 
@@ -54,7 +60,7 @@
         </p>
        
    
-        
+        <pb n="2"/>
         
         <p n="5 "><!-- This paragraph is on a different page but is still the same paragraph so p=5 is repeated -->
             <ln n="28"/>life crowded as it was with all the rich promise of a most useful and happy
@@ -73,9 +79,11 @@
             <ln n="37"/>would wish nothing better tan that these children spared by his heroic
             <ln n="38"/>decision should contribute something worth while to make the world better.
         </p>
-    
+        <closer>
+            <!-- No closer provided -->
+        </closer>
       </body>
-</letter>
+</xml>
 
 
 

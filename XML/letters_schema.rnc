@@ -41,4 +41,4 @@ unclear = element unclear {reason, text }
 underline = element underline {text}
 crossOut = element crossOut {text }
 reason = attribute reason { text }
-closer = element closer {mixed{ln+} }
+closer = element closer {mixed{ln*} }
