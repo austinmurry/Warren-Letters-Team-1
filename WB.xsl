@@ -11,7 +11,7 @@
         <html>
             <head>
                 <title>Warren Behrend’s Last Correspondence and Memorial</title>
-                <link rel="stylesheet" type="text/css" href="docs/webstyle.css"/>
+                <link rel="stylesheet" type="text/css" href="webstyle.css"/>
                 <style type="text/css"> </style>
             </head>
             <body>
