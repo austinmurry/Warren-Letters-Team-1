@@ -40,7 +40,7 @@
     
     <!--Templates in toc mode for the table of contents -->
     <xsl:template match="xml" mode="toc">
-        <li><a href="#{descendant::title/@xml:titleId}"><xsl:apply-templates select="descendant::title" /></a></li>
+        <li><a href="#{descendant::title/@titleId}"><xsl:apply-templates select="descendant::title"/></a></li>
 
     </xsl:template>
     
@@ -48,7 +48,7 @@
     
     <!--Normal templates for fulltext view -->
     <xsl:template match="xml">
-        <a href="#{descendant::h1}"><h2 id="{descendant::title/@xml:titleId}"><xsl:apply-templates select="descendant::title" /></h2></a>
+        <a href="#{descendant::h1}"><h2 id="{descendant::title/@titleId}"><xsl:apply-templates select="descendant::title"/></h2></a>
         <br/>
         <div class="letter" > <div class="header"><xsl:apply-templates select="descendant::header"/></div>
          <p><xsl:apply-templates select="descendant::p"/></p>
