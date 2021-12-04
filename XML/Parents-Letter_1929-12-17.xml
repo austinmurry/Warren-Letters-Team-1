@@ -21,8 +21,8 @@
         </header>
         <p n="1">
             <ln n="1"/>Headed in
-            <ln n="2"/>Southern Pines. Next day 
-            <ln n="3"/>Charleston &amp; the Amida 
+            <ln n="2"/><place placeId="NorthCarolina">Southern Pines</place>. Next day 
+            <ln n="3"/>Charleston &amp; the <boat>Amida</boat> 
             <ln n="4"/>hill ? wonderful to see
             <ln n="5"/><unclear reason="not sure">for it.</unclear> <unclear reason="not sure">O all </unclear>
             <ln n="6"/>&amp; gather for Christmas.
@@ -40,12 +40,12 @@
             <ln n="16"/>Lot of wild drivers on 
             <ln n="17"/>the road 
             <closer> 
-                <ln n="18">M. Warren.</ln>
+                <ln n="18" />M. Warren.
             </closer>
         </p>
         <p n="2"> <!-- am: Fathers letter on the back of the page-->
-            <ln n="1"/>Duesenberg ran beautifully -so far!
-            <ln n="2"/>First day nice weather;<underline>very</underline> cold
+            <ln n="1"/><car>Duesenberg</car> ran beautifully -so far!
+            <ln n="2"/>First day <weather>nice weather</weather>;<underline>very</underline> cold
             <ln n="3"/>yesterday. You may need your coon
             <ln n="4"/>coat, heavy hat or fur cap!!
             <ln n="5"/>Look forward to our Wiedersehen. <!-- ged: This is German for meet again --> 

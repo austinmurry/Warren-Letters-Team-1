@@ -23,10 +23,10 @@
         <p n="1">
             <ln n="1"/>It won't be very long now
             <ln n="2"/>before we will all be together 
-            <ln n="3"/>again on the <unclear reason="hard to read">Amida</unclear>. I am be-
+            <ln n="3"/>again on the <boat>Amida</boat>. I am be-
             <ln n="4"/>ginning to feel more like I was
             <ln n="5"/>going home when we all live
-            <ln n="6"/>on <unclear reason="hard to read">board</unclear> her than when in the 
+            <ln n="6"/>on board her than when in the <!-- jbg:removed the unclear element on board. -->
             <ln n="7"/>house in <place placeId="ERIE">Erie</place>.
         </p>
         <p n="2">
@@ -34,7 +34,7 @@
             <ln n="2"/> time and tell me what arrange-
         <pb n="2"/>
             <ln n="3"/> ments you made about
-            <ln n="4"/> <unclear reason="hard to read">daring</unclear> the <unclear reason="hard to read">La Salle</unclear> meet
+            <ln n="4"/> <unclear reason="hard to read">daring</unclear> the La Salle meet
             <ln n="5"/> me in <place placeId="WASH">Washington</place>. If
             <ln n="6"/> you haven't done this just say so
             <ln n="7"/> and I'll write <person personId="MF">Miss <unclear reason="unclear name">Fraters</unclear></person>. I
@@ -51,13 +51,13 @@
             <ln n="5"/> she lives. There is small informal
        <pb n="3"/>
             <ln n="6"/> dance here next Saturday and
-            <ln n="7"/> if she has no <unclear reason="hard to read">definite *</unclear> for
+            <ln n="7"/> if she has no definite <unclear reason="hard to read">*</unclear> for
             <ln n="8"/> next <crossOut>december</crossOut> Christmas and might
             <ln n="9"/> be able to go I'll ask her <unclear reason="hard to read">if for</unclear>
             <ln n="10"/> that no that we can talk over that <!-- "no" might have meant "know" -->
-            <ln n="11"/> matter. I think Harriet would like
+            <ln n="11"/> matter. I think <person personId="Harriet">Harriet</person> would like
             <ln n="12"/> it better if I could get someone to
-            <ln n="13"/> * * keep her company. I'll <unclear reason="hard to read">write</unclear>
+            <ln n="13"/> * &amp; keep her company. I'll write
             <ln n="14"/> you to New York the * * the
             <ln n="15"/> phone call.
         </p>
@@ -71,7 +71,7 @@
         </p>
         <p n="5">
             <ln n="1"/> There is not as much snow
-            <ln n="2"/> here as there was in Erie, but
+            <ln n="2"/> here as there was in <place placeId="Erie">Erie</place>, but
             <ln n="3"/> it <weather>very cold</weather>. The water question
             <ln n="4"/> is getting quite serious here now
             <ln n="5"/> and they are planning to drill a
