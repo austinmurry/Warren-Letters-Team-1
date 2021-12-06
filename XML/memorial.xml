@@ -14,7 +14,8 @@
         
     </meta>
     <figure>
-        <graphic src="#" alt="#"></graphic>
+        <graphic src="../Letter_Images/Warren-Memorial-Letter/WarrenMemoiralFront.JPG" alt="front, p1"/>
+        <graphic src="../Letter_Images/Warren-Memorial-Letter/WarrenMemorialBack.JPG" alt="back, p2"/>
     </figure>
     <body> 
         <pb n="1"/>

@@ -13,7 +13,7 @@ paperOrigin = element paperOrigin { text }
 transDesc = element transDesc { editor+}
 editor = element editor { "GD" | "JG" | "AM" | "TH" | "SB" | "NV" }
 
-figure = element figure {graphic}
+figure = element figure {graphic+}
 graphic = element graphic {src, alt}
 src = attribute src {xsd:anyURI}
 alt =  attribute alt {text}
