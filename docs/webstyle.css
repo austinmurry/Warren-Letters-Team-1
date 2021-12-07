@@ -109,6 +109,13 @@ figure img {
 .letter {
     margin: 1em;
 }
+
+
+img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
 /*  ol {
 list-style-type: lower-alpha;
 padding: 5em;
