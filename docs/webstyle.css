@@ -116,6 +116,47 @@ img {
     height: auto;
     padding: 10px;
 }
+
+/* About Grid */
+
+.abt-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 30px;
+}
+
+.abt-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.abt-item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.abt-img{
+    width:auto;
+    height:200px;
+}
+.abt-figcap{
+    padding:10px;
+    font-style:normal;    
+    font-weight:bold;    
+}
+
+.abt-desc{    
+    text-align:center;
+    font-size:14px;
+    overflow-wrap:break-word;    
+}
+
+
+
+
 /*  ol {
 list-style-type: lower-alpha;
 padding: 5em;
