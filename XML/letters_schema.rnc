@@ -19,7 +19,7 @@ src = attribute src {xsd:anyURI}
 alt =  attribute alt {text}
 # ged: write text that describes about the figure/graphic
 
-body = element body {pb, header, (pb | p)+ , closer}
+body = element body {(pb, header)*, (pb | p)+ , (closer)*}
 pb = element pb {n+, empty}
 # ged: added a pb element to indicate page beginnings. 
 header = element header {ln, mixed{(ln+ | date | greeting)*}}
