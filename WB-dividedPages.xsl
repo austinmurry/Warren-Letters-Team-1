@@ -66,7 +66,7 @@
     
     <!--Templates in toc mode for the table of contents -->
     <xsl:template match="xml" mode="toc">
-        <li><a href="#{descendant::title/@titleId}"><xsl:apply-templates select="descendant::title"/></a></li>
+        <li><a href="#{descendant::title/@titleId}"><xsl:apply-templates select="descendant::title/@titleId"/></a></li>
 
     </xsl:template>
     
@@ -96,11 +96,21 @@
          <br/>
     </xsl:template>
     <xsl:template match="ln">
-        <br/><span class="n"><xsl:value-of select="count(preceding::ln)+1"/></span>.
+        <br/><span class="ln"><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="title"><xsl:apply-templates/></xsl:template>
     <xsl:template match="fw">
         
+    </xsl:template>
+    <xsl:template match="person">
+        <span class="person">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="place">
+        <span class="place">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     
  <!--   <xsl:template match="figure">
