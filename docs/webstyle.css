@@ -61,9 +61,10 @@ h1.index {
 }
 
 p.index {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 20px;
+    text-align: justify;
+    font-size: 16px;
+    padding:20px;
+    overflow-wrap:break-word;    
 }
 
 p.index2 {
@@ -71,6 +72,24 @@ p.index2 {
     margin-top: 280px;
 }
 
+div.boxes{
+    display:flex;
+    width:fill;
+    height:auto;    
+    padding:20px;
+    gap:15px;    
+}
+
+div.boxes div{
+    padding:10px;
+    text-align:left;
+    background-color:rgba(255,255,255,0.4);    
+}
+
+div.boxes img{    
+    width:480px;
+    height:auto;
+}
 
 section#Letter1 figure { 
     background-color: lavender; 
