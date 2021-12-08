@@ -130,7 +130,7 @@ figure img {
 }
 
 
-img {
+.img {
     width: 300px;
     height: auto;
     padding: 10px;
