@@ -46,15 +46,16 @@
                
             <xsl:comment>New structure for aligning page images and transcripts here.</xsl:comment>
              <section class="document">
-                 <figure>
+                 <div class="docImage"><figure>
                      <img src="images/{descendant::figure/graphic/@src ! tokenize(., '/')[last()]}"/>
                      <figcaption><xsl:value-of select="descendant::figure/graphic/@alt"/></figcaption>
-                 </figure>
+                 </figure></div>
                   <div class="transcript"> 
                     <xsl:apply-templates select="descendant::xml">
                         <xsl:sort select="descendant::date[1]"/>
                     </xsl:apply-templates>
                     </div>
+                 
                 </section>
   
       <!--</xsl:result-document>-->

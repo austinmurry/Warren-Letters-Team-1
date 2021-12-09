@@ -1,8 +1,24 @@
 
 body {
 background-color: BurlyWood;
-color: indigo;
+color: #231709;
 font-family: arial, helvetica, sans-serif;
+}
+
+a:link {
+    color: #821F3B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #821F3B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #821F3B;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .container {
@@ -44,7 +60,7 @@ ul.menu li {
 ul.menu li a {
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     font-family: "Trebuchet MS", Times, serif;
     color: indigo;
     padding: 0 20px;
@@ -173,8 +189,69 @@ figure img {
     overflow-wrap:break-word;    
 }
 
+h1.heading1T {
+   text-align: center;
+   margin-top: 30px;
+}
 
+h2.heading2T {
+    margin-left: 170px;
+    margin-top: 20px;
+}
 
+ul.ToC {
+   margin-left: 210px; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+section[class="document"] {
+ background-color:rgba(255, 255, 255, 0.4);
+ border: thin solid maroon;
+ display:grid;
+ grid-auto-flow:column; 
+ grid-template-columns:800px 400px; 
+ grid-column-gap:20px;
+}
+
+section[class="document"] div.docImage {
+background-color:rgba(255, 255, 255, 0.4);
+display:grid;
+grid-auto-flow:column;
+grid-template-columns: 400px 400px /*minmax(auto, 400px)*/; 
+/*  ebb: need to look up how minmax works.  */
+grid-column-gap:20px;
+}
+
+section#fulltext {
+    width:80%;
+    margin:auto;
+    display:grid;
+    grid-auto-flow:row;
+    grid-row-gap:50px;
+}
+
+div.docImage > figure > img {
+ object-fit:contain;
+ width:200%;
+ margin-left: 50px;
+ margin-top: 20px;
+   
+}
+
+div.docImage > figure > figcaption {
+ margin-left: 50px;
+ margin-bottom: 10px;
+ font-size: 16px;
+}
+
+span.person {
+   font-weight: bold; 
+}
+
+span.place {
+    font-style: italic;
+}
 
 /*  ol {
 list-style-type: lower-alpha;
