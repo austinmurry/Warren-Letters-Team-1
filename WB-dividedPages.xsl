@@ -113,6 +113,21 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="boat">
+        <span class="boat">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="car">
+        <span class="car">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="emotion">
+        <span class="emotion">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
  <!--   <xsl:template match="figure">
         <figure>
