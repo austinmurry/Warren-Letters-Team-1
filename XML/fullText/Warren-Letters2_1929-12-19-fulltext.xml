@@ -33,15 +33,15 @@
             <ln n="7"/>house in <place placeId="ERIE">Erie</place>.
         </p>
         <p n="2">
-            <ln n="1"/> Please <unclear reason="unclear">dust</unclear> me a line some
+            <ln n="1"/> Please drop me a line some <!-- seb: changed "dust" to "drop" after rereading -->
             <ln n="2"/> time and tell me what arrange-
         <pb n="2"/>
             <ln n="3"/> ments you made about
-            <ln n="4"/> <unclear reason="hard to read">daring</unclear> the La Salle meet
+            <ln n="4"/> <unclear reason="hard to read">daring</unclear> the La Salle meet <!-- seb: i beleive "daring" is actually "having" -->
             <ln n="5"/> me in <place placeId="WASH">Washington</place>. If
             <ln n="6"/> you haven't done this just say so
             <ln n="7"/> and I'll write <person personId="MF">Miss <unclear reason="unclear name">Fraters</unclear></person>. I
-            <ln n="8"/> shall probably write to her anyway as
+            <ln n="8"/> shall probably write her anyway as <!-- seb: took out extra word -->
             <ln n="9"/> I want to be sure the boot for
             <ln n="10"/> the toy is in the car and have
             <ln n="11"/> the wings put <crossOut/> back on again.
@@ -54,19 +54,19 @@
             <ln n="5"/> she lives. There is small informal
        <pb n="3"/>
             <ln n="6"/> dance here next Saturday and
-            <ln n="7"/> if she has no definite <unclear reason="hard to read">*</unclear> for
+            <ln n="7"/> if she has no definite plans for <!-- seb: added word "plans" -->
             <ln n="8"/> next <crossOut>december</crossOut> Christmas and might
             <ln n="9"/> be able to go I'll ask her <unclear reason="hard to read">if for</unclear>
-            <ln n="10"/> that no that we can talk over that <!-- "no" might have meant "know" -->
+            <ln n="10"/> that so that we can talk over the <!-- seb: changed "no" to "so" and "that" to "the" -->
             <ln n="11"/> matter. I think <person personId="Harriet">Harriet</person> would like
             <ln n="12"/> it better if I could get someone to
-            <ln n="13"/> * &amp; keep her company. I'll write
+            <ln n="13"/> sort of keep her company. I'll write <!-- seb: added words "sort of" -->
             <ln n="14"/> you to New York the * * the
             <ln n="15"/> phone call.
         </p>
         <p n="4">
             <ln n="1"/> I'm not at all sure I'll have
-            <ln n="2"/> I'll have time to make the enlargements you
+            <ln n="2"/> time to make the enlargements you <!-- seb: removed extra "i'll have" -->
             <ln n="3"/> want, but if I do I'll be glad to 
             <ln n="4"/> make them. Enlargements take a lot
         <pb n="4"/>
@@ -79,14 +79,14 @@
             <ln n="4"/> is getting quite serious here now
             <ln n="5"/> and they are planning to drill a
             <ln n="6"/> number of wells next week. The
-            <ln n="7"/> spring at the <place placeId="EAGLE">Eaglehook</place> dried out
+            <ln n="7"/> springs at the <place placeId="EAGLE">Eaglehook</place> dried out <!-- seb: added s to "springs" -->
             <ln n="8"/> yesterday and so that <crossOut>is the jist</crossOut>
             <ln n="9"/> throws all the more drain on the
             <ln n="10"/> town system.
         </p>
         <p n="6">
             <ln n="1"/> Hope you have a nice trip
-            <ln n="2"/> south.
+            <ln n="2"/> South. <!-- seb: capitalized south -->
         </p>
         <closer>
             <ln n="1"/>Much love,
