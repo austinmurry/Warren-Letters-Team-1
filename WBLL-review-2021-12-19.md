@@ -2,7 +2,7 @@
 
 * Site publication: <https://austinmurry.github.io/Warren-Letters-Team-1/index.html>
 * GitHub: <https://github.com/austinmurry/Warren-Letters-Team-1>
-* Developers: Austin Murry, Grace Dill, Joey Gardiner, Thomas Hammer, Sydney Beal
+* Developers: Austin Murry, Grace Dill, Joey Gardiner, Thomas Hammer, Nicky Versagli, Sydney Beal
 * Date of Evaluation: 2021-12-19
 * Evaluated by: @ebeshero
 
