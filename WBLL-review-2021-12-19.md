@@ -73,7 +73,7 @@ Pointing us directly to the XML files is always important in a project like this
 ### HTML and CSS 
 
 #### Responsive Design
-Your site Mostly does well in adapting itself for viewing on a wide range of screen sizes. However,
+Your site *mostly* does well in adapting itself for viewing on a wide range of screen sizes. However,
 there are two areas where this could be improved:
 
 1. On the main page, notice what happens to the main heading, "Welcome to The Warren Behrend Last Letters Webpage!", when we narrow the page. I took some screen captures on my phone to illustrate:
