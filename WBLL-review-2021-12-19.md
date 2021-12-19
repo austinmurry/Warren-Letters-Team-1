@@ -86,16 +86,19 @@ In both of these views, we can see how the `<h1>` element holding the main headi
 
 2. Images throughout the site maintain their proportions when we narrow the screen. it's not bad to view on mobile, but the images could be made to shrink on resizing with a small adjustment to the CSS. How to do this depends on whether you're working in CSS grid or not:
      * If you are *not* using CSS grid around an image, here's a simple solution:
+     
        ```css
        figure img {
            max-width: 500px;
            width: 100%;
           }
        ```
+
 This basically says, select the `<img>` when it's a child of `<figure>`. Make it's maximum width be `500px` (you can certainly change that, of course, but the idea is that it's a literal pixel value). And make its standard width be `100%`, to fill 100% of the width of its parent container. (If you made the `<figure>` take up 1/3 of the screen, then this would mean the `<img>` inside can only be that width, too. For some reason, that percentage value for `width` needs a little help from the `max-wdith` property to do its work and help images "know" how large to be in any cntext. 
 
      * What if you're in a CSS grid context, as on your Letters Transcription page? What you already have in your CSS is *mostly* doing the job: That is, this code *should* be okay, as long as `div.docImage` and `figure` are coded as a CSS grid: 
-     
+
+        
      ```css
      div.docImage > figure > img {
      object-fit:contain;
@@ -104,7 +107,8 @@ This basically says, select the `<img>` when it's a child of `<figure>`. Make it
       margin-top: 20px;   ebb: I would maybe remove 
       these properties in case they interfere with scaling, 
       and use a grid-row-gap or a grid-column-gap property instead.*/  
-      }```    
+      }
+      ```    
 
             
 This code *should* work, but I think it is not because you need some code to define the parent `<figure>` element as a CSS grid. You may also want to set up the `div.docImage` as a CSS grid as well. I don't find these set up as grids in your CSS code, so I am pretty sure that's why the images aren't scaling. Look at how we did this, to create nested grids, in our [example CSS for the Mary Behrend Calendar project](  https://github.com/newtfire/textEncoding-Hub/blob/e6e6106a8c01faafc71eedae0ca5e178b3dcfbb9/Class-Examples/CSS-Grid/Mary-Behrend-Calendar-ReadingView/styling.css#L267)
