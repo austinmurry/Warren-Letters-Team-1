@@ -131,5 +131,5 @@ When you make corrections, how should you do it? **Make it a policy to always co
 
 
 ### Closing Comments
-You have done an amazing job with this project and you were one of the most dedicated and well-coordinated teams I've had the pleasure to work with. Because you work was solid from the beginning and the markup and schema were so strong, that's why I'm making a point of wanting you to feature them on this project, knowing that it will have a long life in helping to educate future students and scholars and readers about Behrend history. 
+You have done an amazing job with this project and you were one of the most dedicated and well-coordinated teams I've had the pleasure to work with. Because your work was solid from the beginning and the markup and schema were so strong, that's why I'm making a point of wanting you to feature them on this project, knowing that it will have a long life in helping to educate future students and scholars and readers about Behrend history. 
 
