@@ -61,7 +61,7 @@ So I wondered if you had marked that deletion, and peeked at your XML. Of course
 
 ```
 
-In the HTML, because you haven't output anything to style the `<crossOut>` elements, we can't see them as deletions, so this passage reads as if you had transcribed a typo. This kind of problem makes it super important to share your XML openly with your readers, even if you think they won't look at it. People like Jane Ingold and other librarians and resarchers who care about Behrend history will certainly look at your XML, and if you don't share it, they won't know what *else* your HTML output might be missing. That leads us to our next point.
+In the HTML, because you haven't output anything to style the `<crossOut>` elements, we can't see them as deletions, so this passage reads as if you had transcribed a typo. This kind of problem makes it super important to share your XML openly with your readers, even if you think they won't look at it. People like Jane Ingold and other librarians and researchers who care about Behrend history will certainly look at your XML, and if you don't share it, they won't know what *else* your HTML output might be missing. That leads us to our next point.
 
 
 ### Code View
