@@ -104,11 +104,12 @@ This basically says, select the `<img>` when it's a child of `<figure>`. Make it
       margin-top: 20px;   ebb: I would maybe remove 
       these properties in case they interfere with scaling, 
       and use a grid-row-gap or a grid-column-gap property instead.*/  
-      }
-     ```     
-     This code *should* work, but I think it is not because you need some code to define the parent `<figure>` element as a CSS grid. You may also want to set up the `div.docImage` as a CSS grid as well. I don't find these set up as grids in your CSS code, so I am pretty sure that's why the images aren't scaling. Look at how we did this, to create nested grids, in our example CSS for the Mary Behrend Calendar project:  https://github.com/newtfire/textEncoding-Hub/blob/e6e6106a8c01faafc71eedae0ca5e178b3dcfbb9/Class-Examples/CSS-Grid/Mary-Behrend-Calendar-ReadingView/styling.css#L267 
+      }```    
+
+            
+This code *should* work, but I think it is not because you need some code to define the parent `<figure>` element as a CSS grid. You may also want to set up the `div.docImage` as a CSS grid as well. I don't find these set up as grids in your CSS code, so I am pretty sure that's why the images aren't scaling. Look at how we did this, to create nested grids, in our [example CSS for the Mary Behrend Calendar project](  https://github.com/newtfire/textEncoding-Hub/blob/e6e6106a8c01faafc71eedae0ca5e178b3dcfbb9/Class-Examples/CSS-Grid/Mary-Behrend-Calendar-ReadingView/styling.css#L267)
      
-     The part the handles the responsive scaling is just two CSS rules, from lines 267 - 286. From that code, it appears that we defined a container around the figure to be a grid, and then set the `object-fit` property on the `img` itself (as you did). We can try changing the margin properties to use either `grid-row-gap` or `grid-column-gap` to control the space around the image (depending whether your grid is defined in rows or columns).
+The part the handles the responsive scaling is just two CSS rules, from lines 267 - 286. From that code, it appears that we defined a container around the figure to be a grid, and then set the `object-fit` property on the `img` itself (as you did). We can try changing the margin properties to use either `grid-row-gap` or `grid-column-gap` to control the space around the image (depending whether your grid is defined in rows or columns).
        
 
 ### Errata: (Small repairs to make in the XML)
